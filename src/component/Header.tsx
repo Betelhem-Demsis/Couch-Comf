@@ -22,7 +22,7 @@ export default function Header() {
           </li>
           <li className="nav__item">
             <a className="nav__link nav__link--btn btn--show-modal" href="#"
-              >Start Shopping</a>
+              >Shop here</a>
           </li>
         </ul>
       </nav>
