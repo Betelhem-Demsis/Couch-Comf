@@ -14,9 +14,7 @@ export default function Header() {
           <li className="nav__item">
             <a className="nav__link" href="#section--1">Store</a>
           </li>
-          <li className="nav__item">
-            <a className="nav__link" href="#section--2">Testimonials</a>
-          </li>
+
           <li className="nav__item">
             <a className="nav__link" href="#section--3">Sign up</a>
           </li>
