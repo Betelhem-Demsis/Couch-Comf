@@ -1,0 +1,73 @@
+.sofas img {
+  width: 100%;
+  border: 2px solid #f2f0e8;
+  border-radius: 10px;
+}
+.name {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 350px;
+  padding-top: 10px;
+  font-size: 20px;
+}
+.sofa-main {
+  padding-top: 6rem;
+}
+.sofa-main h2 {
+  font-size: 40px;
+  color: rgb(199, 174, 141);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  text-decoration: dotted;
+}
+.sofas {
+  display: grid;
+  grid-template-columns: repeat(2, 0.4fr);
+  grid-template-rows: repeat(2, 0.4fr);
+  row-gap: 3rem;
+  column-gap: 5rem;
+  padding-top: 80px;
+  margin-left: 350px;
+  margin-right: 120px;
+}
+.sofa {
+  background: #d1cab036;
+  box-shadow: 0 0 4px 1px rgb(208, 209, 216);
+  width: 380px;
+  height: 400px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 280px;
+  padding-top: 50px;
+  font-size: 20px;
+}
+button {
+  border: 0;
+  font-size: 17px;
+  font-weight: 500;
+  color: #5f2629;
+  border: none;
+  border-top: 3px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  border-radius: 8px;
+  padding-bottom: 3px;
+  padding-top: 5px;
+  cursor: pointer;
+}
+.buttons a {
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 500;
+  color: #c0656a;
+}
+button:hover {
+  background-color: #5f2629;
+  color: #f2f0e8;
+}

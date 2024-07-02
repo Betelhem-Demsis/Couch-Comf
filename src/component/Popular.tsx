@@ -1,39 +1,52 @@
 import React from "react";
-
-  
-const NewSofa = [
+import leatherImage from "../assets/image/leather.jpg"; 
+import "../css/popular.css";
+const NewSofa= [
   {
-    image:"../assets/image/leather.jpg",
+    image: leatherImage,
     name: "leather",
+    price:"400$",
   },
   {
-    image:"../assets/image/leather.jpg",
+    image: leatherImage,
     name: "leather",
+    price:"400$",
   },
   {
-    image:"../assets/image/leather.jpg",
+    image: leatherImage,
     name: "leather",
+    price:"400$",
   },
   {
-    image:"../assets/image/leather.jpg",
+    image: leatherImage,
     name: "leather",
+    price:"400$",
   },
 ];
+
 export default function Popular() {
   return (
-    <div>
-      <h2>check out new released furnitures</h2>
-      {NewSofa.map((sofa,index) => (
-         <div className="sofa" key={index}>
-         <img src={sofa.image} alt="sofa" />
-         <h2>{sofa.name}</h2>
-         <button>
-           <a href="">add to cart</a>
-         </button>
-         <button>buy</button>
+    <div className="sofa-main">
+      <h2>Check out new released furnitures</h2>
+      <div className="sofas" >
+      {NewSofa.map((sofa, index) => (
+     
+          <div className="sofa" key={index}>
+          <img src={sofa.image} alt="sofa" />
+          <div className="name">
+          <h3>{sofa.name}</h3>
+          <h4>{sofa.price}</h4>
+          </div>
+          <div className="buttons">
+          <button>
+            <a href="">Add to cart🛒</a>
+          </button>
+          <button>Buy</button>
+          </div>
+          </div>
+       
+        ))}   
        </div>
-      ))}
-      
     </div>
   );
 }
