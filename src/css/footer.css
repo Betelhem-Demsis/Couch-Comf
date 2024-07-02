@@ -1,0 +1,16 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    column-gap: 25rem;
+    margin-top: 5rem;
+    background-color: rgb(110, 93, 70);
+    padding: 120px;
+}
+.footer h4{
+    font-size: 25px;
+    color: rgb(179, 179, 152);
+}
+.footer p{
+    font-size: 20px;
+    color: rgb(179, 179, 152);
+} 
