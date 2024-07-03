@@ -16,8 +16,8 @@ function App() {
     <>
       <Header />
       <Hero />
-      <Sofa />
       <Popular />
+      <Sofa />
       <Footer/>
     </>
           }/>
