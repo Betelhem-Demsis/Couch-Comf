@@ -10,12 +10,12 @@
     text-decoration: dotted;
   }
   .slider {
-    max-width: 100rem;
+    /* max-width: 100rem; */
     height: 50rem;
     margin: 0 auto;
     position: relative;
     overflow: hidden;
-    /* margin-top: 1rem; */
+    margin-top: 1rem; 
   }
   
   .slide {
@@ -96,7 +96,7 @@
 }
   
   .sofa-title{
-    margin: -50px 40px 30px;
+    margin: -70px 40px 30px;
     font-size: 20px;
     color: #fff;
     z-index: 100;

@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../assets/image/Component-2.png"
 import "../css/header.css";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   return <div>
@@ -12,15 +13,14 @@ export default function Header() {
         />
         <ul className="nav__links">
           <li className="nav__item">
-            <a className="nav__link" href="#section--1">Store</a>
+            <Link to="/Store" className="nav__link">Store</Link>
           </li>
 
           <li className="nav__item">
-            <a className="nav__link" href="#section--3">Sign up</a>
+            <Link to="/Signup" className="nav__link">Sign up</Link>
           </li>
           <li className="nav__item">
-            <a className="nav__link nav__link--btn btn--show-modal" href="#"
-              >Shop here</a>
+            <Link to="/Store" className="nav__link nav__link--btn btn--show-modal">Shop here</Link>
           </li>
         </ul>
       </nav>
