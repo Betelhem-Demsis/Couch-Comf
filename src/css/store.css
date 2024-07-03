@@ -1,0 +1,36 @@
+.store .sofa-main .sofas{
+  display: grid;
+  grid-template-columns: repeat(3, 0.2fr);
+  grid-template-rows: repeat(2,0.2fr);
+  row-gap: 3rem;
+  padding-left: 100px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  padding-top: 20px;
+}
+.catag{
+   display: flex;
+   flex-direction: row;
+   gap: 40px;
+   justify-content: center;
+   align-items: center;
+   padding-top: 3rem;
+}
+.catag button{
+    height: 40px;
+    width: 9rem;
+    border: 1px solid;
+}
+.store h2{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   padding-top: 4rem;
+   font-size: 30px;
+  color: rgb(199, 174, 141);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  text-decoration: dotted;
+}
